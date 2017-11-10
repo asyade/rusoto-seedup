@@ -19,6 +19,7 @@ use hex::ToHex;
 use param::Params;
 use region::Region;
 use credential::AwsCredentials;
+use std::ascii::AsciiExt
 
 /// A data structure for all the elements of an HTTP request that are involved in
 /// the Amazon Signature Version 4 signing process
